@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.AndroidClaw" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">#0A0A0A</item>
+    </style>
+</resources>

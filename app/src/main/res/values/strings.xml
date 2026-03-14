@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidClaw</string>
+    <string name="accessibility_service_description">AndroidClaw reads your screen to execute goals you give it. All data stays on your device and is never uploaded.</string>
+</resources>

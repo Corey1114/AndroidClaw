@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Never back up encrypted keys or tokens -->
+    <exclude domain="sharedpref" path="ac_secure.xml" />
+    <exclude domain="file" path="memory/" />
+</full-backup-content>

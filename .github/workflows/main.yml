@@ -38,7 +38,7 @@ jobs:
           echo "android.enableJetifier=true" >> gradle.properties
 
       - name: Build APK
-        run: gradle --no-daemon :app:assembleDebug --stacktrace
+        run: gradle --no-daemon -Djava.io.tmpdir=/tmp :app:assembleDebug --stacktrace
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
